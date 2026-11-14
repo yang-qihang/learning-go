@@ -1,0 +1,95 @@
+
+
+# ============================================
+# Go build artifacts
+# ============================================
+
+/bin/
+/build/
+/dist/
+
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# ============================================
+# Test, coverage, and profiling artifacts
+# ============================================
+
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+*.prof
+*.pprof
+*.trace
+
+# Delve debugger
+__debug_bin
+__debug_bin.exe
+
+# ============================================
+# Go workspace files
+# ============================================
+
+go.work
+go.work.sum
+
+# ============================================
+# Environment and local configuration
+# ============================================
+
+.env
+.env.*
+!.env.example
+.direnv/
+
+# ============================================
+# Editor and IDE files
+# ============================================
+
+.idea/
+.vscode/
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+*~
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.orig
+*.rej
+
+# ============================================
+# Logs
+# ============================================
+
+*.log
+
+# ============================================
+# Operating system files
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux / filesystem
+.nfs*
